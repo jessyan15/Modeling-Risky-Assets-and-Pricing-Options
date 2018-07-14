@@ -1,3 +1,9 @@
+""" 
+This code depicts how accurate the Monte Carlo method can be and how the Strong Law of Large Numbers (SLLN) works in practice. 
+For the values of p=0.5 and p=0.75 I obtained an estimate of p by using Monte Carlo Simulation with n=100,n=1000,n=10,000. 
+generate n iid Bernoulli (p) random variables B1,...,Bn and use as the estimate p̂ =1n∑i=1nBi
+
+"""
 # Import random module 
 import random
 
